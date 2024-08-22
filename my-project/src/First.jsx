@@ -1,4 +1,4 @@
-
+/* eslint-disable react/no-unknown-property */
 
 
 function First() {
@@ -6,11 +6,33 @@ function First() {
 
     return (
       <>
-      <h1>Glovo</h1>
-    
-      <video src="https://glovoapp.com/images/landing/address-container-animation.webm"></video>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffd700" fillOpacity="1" d="M0,192L48,181.3C96,171,192,149,288,160C384,171,480,213,576,245.3C672,277,768,299,864,256C960,213,1056,107,1152,58.7C1248,11,1344,21,1392,26.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <div className="fir-body">
 
+        
+      
+        <h1 className="fixed">Glovo</h1>
+        <section className="button ">
+          <button>Login</button>
+        </section>
+      
+        
+     
+      
+      <div className="video">
+        <video src="https://glovoapp.com/images/landing/address-container-animation.webm"></video>
+        <h2>Food delivery and more
+        </h2>
+        <h4>Groceries,shops,pharmacies,anything!</h4>
+      </div>  
+      
+       <label htmlFor="">jknihi;jihi</label>
+      
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffc244" fill-opacity="1" d="M0,128L40,144C80,160,160,192,240,213.3C320,235,400,245,480,250.7C560,256,640,256,720,229.3C800,203,880,149,960,122.7C1040,96,1120,96,1200,112C1280,128,1360,160,1400,176L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+      
+
+      
+<video data-test-id="animation-video" autoplay="autoplay" loop="loop" muted="muted" width="281" height="252" class="animation__element" data-v-04365376>…</video>media
         
       </>
     )

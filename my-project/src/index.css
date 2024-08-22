@@ -3,9 +3,37 @@
 @tailwind utilities;
 
 body{
-    background-color: #ffc244;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 
 }
+
+.fir-body{
+
+    background-color:#ffc244 ;
+    padding: 40px;
+}
+.header{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+button{
+    color:white;
+    background-color: rgba(91, 196, 91, 0.89);
+    padding: 8px;
+    width: 15%;
+    border-radius: 15px;
+    position: fixed;
+    right: 0;
+    margin-right: 10px;
+}
+
 
 
 
