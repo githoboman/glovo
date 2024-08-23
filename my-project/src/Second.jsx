@@ -15,7 +15,7 @@ function Second  () {
         <li><img src="my-project/src/assets/smmalchop.jpg" alt="kitchen" /></li>
         <li><img src="my-project/src/assets/chop now.jpg" alt="house" /></li>
         <li><img src="my-project/src/assets/debonair.jpg" alt="me" /></li>
-        <li><img src="my-project/src/assets/fkitch.jpg" alt="letsg0" /></li>
+        <li><img style={innerWidth} src="my-project/src/assets/fkitch.jpg" alt="letsg0" /></li>
         
         
         
