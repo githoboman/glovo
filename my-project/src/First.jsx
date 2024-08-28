@@ -9,17 +9,20 @@ function First() {
       <div className="fir-body">
 
         
-      
-        <h1 className="fixed">Glovo</h1>
+      <div className="fix-col">
+        <h1 className="fixed header">Glovo</h1>
         <section className="button ">
           <button>Login</button>
         </section>
+        </div>
       
         
      
       
-      <div className="video">
-        <video src="https://glovoapp.com/images/landing/address-container-animation.webm"></video>
+      <div className="videoxxcc">
+        <video className="video-demo" width="640" height="264" controls src="">
+        
+        </video>
         <h2>Food delivery and more
         </h2>
         <h4>Groceries,shops,pharmacies,anything!</h4>

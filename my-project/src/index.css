@@ -21,11 +21,15 @@ img{
     padding: 40px;
 }
 .header{
-    padding: 25px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
+
+.fix-col{
+    background-color: aqua;
 }
 button{
     color:white;
@@ -37,6 +41,10 @@ button{
     right: 0;
     margin-right: 10px;
 }
+ul{
+    list-style: none;
+}
+
 
 
 
