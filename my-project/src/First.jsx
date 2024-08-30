@@ -17,13 +17,12 @@ function First() {
         </div>
       
         
-     
+        
       
       <div className="videoxxcc">
-        <video className="video-demo" width="640" height="264" controls src="">
-        
-        </video>
-        <h2>Food delivery and more
+
+        <video src="my-project/public/address-container-animation (2).mp4"></video>
+       <h2>Food delivery and more
         </h2>
         <h4>Groceries,shops,pharmacies,anything!</h4>
       </div>  
