@@ -1,31 +1,28 @@
-// eslint-disable-next-line no-unused-vars
-import React, { useRef, useEffect } from 'react';
+/* eslint-disable no-unused-vars */
+
+ import ReactPlayer from 'react-player' 
+import React from 'react'
+import video from '/VIDDY.mp4';
+        
+function RealPlay  () {
+    
+    return(
+         <ReactPlayer 
+        controls={true} 
+        url={video} 
+        height= "600px"
+         width= "500px"
+         playing ={true}
+         onReady={true}
+         loop={true}
+         autoplay={true}
+         />  
+        
+        
+
+    )
 
 
-
-function Video() {
-    const videoRef = useRef("my-project/public/address-container-animation (2).mp4");
-  
-    useEffect(() => {
-      const video = videoRef.current;
-  
-      if (video) {
-        video.loop = true;
-        video.play()
-          .then(() => {
-            // Video played successfully
-          })
-          .catch(error => {
-            console.error('Error playing video:', error);
-          });
-      }
-    }, []);
-  
-    return (
-      <video ref={videoRef} width="320" height="240">
-        <source src="my-project/public/address-container-animation (2).mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    );
-  }
-  export default Video
+}
+export default RealPlay
+ 
