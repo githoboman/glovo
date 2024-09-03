@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unknown-property */
-
+import Video from './Video'
 
 function First() {
   
@@ -9,12 +9,13 @@ function First() {
       <div className="fir-body">
 
         
-      <div className="fix-col">
+      <div className="fix-col ">
         <h1 className="fixed header">Glovo</h1>
         <section className="button ">
           <button>Login</button>
         </section>
         </div>
+        <Video/>
       
         
         

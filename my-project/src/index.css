@@ -27,10 +27,6 @@ img{
     align-items: center;
 }
 
-
-.fix-col{
-    background-color: aqua;
-}
 button{
     color:white;
     background-color: rgba(91, 196, 91, 0.89);
@@ -44,6 +40,7 @@ button{
 ul{
     list-style: none;
 }
+
 
 
 
