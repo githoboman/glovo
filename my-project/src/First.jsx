@@ -10,7 +10,7 @@ function First() {
 
         
       <div className="fix-col ">
-        <h1 className="fixed header">Glovo</h1>
+        <h1 className="fixed header ">Glovo</h1>
         <section className="button ">
           <button>Login</button>
         </section>
