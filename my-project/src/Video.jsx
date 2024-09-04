@@ -10,10 +10,10 @@ function RealPlay  () {
         
       <div className='byellow' >
          <ReactPlayer
-        controls={true} 
+        controls={false} 
         url={video} 
-        height= "600px"
-         width= "500px" 
+        height= "450px"
+         width= "400px" 
          playing ={true}
          onReady={true}
          loop={true} 
