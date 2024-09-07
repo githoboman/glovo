@@ -21,12 +21,12 @@ img{
     padding: 40px;
 }
 .header{
-    padding: 25px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
+
 button{
     color:white;
     background-color: rgba(91, 196, 91, 0.89);
@@ -37,6 +37,12 @@ button{
     right: 0;
     margin-right: 10px;
 }
+ul{
+    list-style: none;
+}
+
+
+
 
 
 
