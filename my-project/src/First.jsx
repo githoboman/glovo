@@ -12,7 +12,9 @@ function First() {
       <div className="fix-col ">
         <h1 className="fixed header ">Glovo</h1>
         <section className="button ">
-          <button>Login</button>
+        <button className="bg-green-500 text-white rounded-lg hover:bg-blue-600">
+      Login
+    </button>
         </section>
         </div>
         <Video/>      
