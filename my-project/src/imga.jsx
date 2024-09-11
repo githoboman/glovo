@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 
 
@@ -24,9 +25,7 @@ const ImageGrid = () => {
 </h1>
 
     <div className="container mx-auto px-4">
-      <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-        {imageData.map((image, index) => (
-          <li key={index} className="flex items-center justify-center">
+      <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-col0201001ter">
             <img 
               src={image.src} 
               alt={image.alt} 
