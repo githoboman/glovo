@@ -1,7 +1,10 @@
 
-import './App.css'
-import First from './First'
-import Second from './Second'
+import './App.css';
+import First from './First';
+import ImageGrid from './ImageGrid'
+
+
+
 
 
 function App() {
@@ -10,8 +13,7 @@ function App() {
   return (
     <>
     <First/>
-    
-    <Second/>
+    <ImageGrid/>
    
     
       
